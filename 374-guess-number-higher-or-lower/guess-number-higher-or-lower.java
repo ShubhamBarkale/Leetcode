@@ -21,11 +21,11 @@ public class Solution extends GuessGame {
                 return mid;
             } 
             else if (result == -1) {
-                // mid is too high
+               
                 end = mid - 1;
             } 
             else {
-                // mid is too low
+                
                 start = mid + 1;
             }
         }
